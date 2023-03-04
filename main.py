@@ -1,9 +1,8 @@
-from item import Item
 from phone import Phone
 
 
-item1 = Item("MyItem", 750)
+item1 = Phone("jscPhone", 1000, 3)
 
-item1.name = "OtherItem"
+item1.applyDiscount()
 
-print(item1.name)
+print(item1.price)
